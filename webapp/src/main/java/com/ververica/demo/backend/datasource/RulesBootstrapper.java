@@ -26,6 +26,8 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+
+//Setting default rules alert once app start 
 @Component
 public class RulesBootstrapper implements ApplicationRunner {
 
